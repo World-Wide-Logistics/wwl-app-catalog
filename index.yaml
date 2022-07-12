@@ -37,7 +37,7 @@ entries:
     name: global-logistics-unit-service
     type: application
     urls:
-    - https://github.com/World-Wide-Logistics/wwl-app-catalog/global-logistics-unit-service-0.2.0.tgz
+    - https://world-wide-logistics.github.io/wwl-app-catalog/global-logistics-unit-service-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.0
