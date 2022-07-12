@@ -9,7 +9,7 @@ entries:
     name: artemis
     type: application
     urls:
-    - https://github.com/World-Wide-Logistics/wwl-app-catalog/artemis-1.0.1.tgz
+    - https://world-wide-logistics.github.io/wwl-app-catalog/artemis-1.0.1.tgz
     version: 1.0.1
   cockroachdb:
   - apiVersion: v1
@@ -26,7 +26,7 @@ entries:
     sources:
     - https://github.com/cockroachdb/cockroach
     urls:
-    - https://github.com/World-Wide-Logistics/wwl-app-catalog/cockroachdb-8.1.1.tgz
+    - https://world-wide-logistics.github.io/wwl-app-catalog/cockroachdb-8.1.1.tgz
     version: 8.1.1
   global-logistics-unit-service:
   - apiVersion: v2
@@ -47,6 +47,6 @@ entries:
     name: global-logistics-unit-service
     type: application
     urls:
-    - https://github.com/World-Wide-Logistics/wwl-app-catalog/global-logistics-unit-service-0.1.0.tgz
+    - https://world-wide-logistics.github.io/wwl-app-catalog/global-logistics-unit-service-0.1.0.tgz
     version: 0.1.0
 generated: "2022-07-11T15:51:47.720961+01:00"
