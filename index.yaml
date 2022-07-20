@@ -3,7 +3,7 @@ entries:
   artemis:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2022-07-11T15:51:47.724579+01:00"
+    created: "2022-07-20T14:54:17.020142+01:00"
     description: A Helm chart for Kubernetes
     digest: 6f31911f475a1177dc4e4fc7a72e2e7a33859f63577bb4d04d6fed0506c1440e
     name: artemis
@@ -14,7 +14,7 @@ entries:
   cockroachdb:
   - apiVersion: v1
     appVersion: 22.1.2
-    created: "2022-07-11T15:51:47.727645+01:00"
+    created: "2022-07-20T14:54:17.025383+01:00"
     description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
     digest: 0cf2ff630f4dca09d91c01a9c528c451a215a965c2ff675008ff5e35acc3d2b4
     home: https://www.cockroachlabs.com
@@ -28,10 +28,21 @@ entries:
     urls:
     - https://world-wide-logistics.github.io/wwl-app-catalog/cockroachdb-8.1.1.tgz
     version: 8.1.1
+  freight-backend:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-07-20T14:54:17.02629+01:00"
+    description: A Helm chart for the Freight Backend Kubernetes objects.
+    digest: 155ab5f45e65d8f6827564778d6a00cef6d88286150dff3c2c710b1dce9fdd0e
+    name: freight-backend
+    type: application
+    urls:
+    - https://world-wide-logistics.github.io/wwl-app-catalog/freight-backend-0.1.0.tgz
+    version: 0.1.0
   global-logistics-unit-service:
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2022-07-11T15:51:47.730221+01:00"
+    created: "2022-07-20T14:54:17.028265+01:00"
     description: A Helm chart for the Global Logistics Unit Service Kubernetes objects.
     digest: d0a3993570327fd7e0effdecca3cdc7f06ef4649d64a5262631ec893c8146b98
     name: global-logistics-unit-service
@@ -41,7 +52,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-07-11T15:51:47.728916+01:00"
+    created: "2022-07-20T14:54:17.027283+01:00"
     description: A Helm chart for the Global Logistics Unit Service Kubernetes objects.
     digest: a0af2fea131c68809ccee7d373b46ca4c280ee7703f2a0a9b5b335d355fbadf4
     name: global-logistics-unit-service
@@ -49,4 +60,4 @@ entries:
     urls:
     - https://world-wide-logistics.github.io/wwl-app-catalog/global-logistics-unit-service-0.1.0.tgz
     version: 0.1.0
-generated: "2022-07-11T15:51:47.720961+01:00"
+generated: "2022-07-20T14:54:17.017596+01:00"
