@@ -3,7 +3,7 @@ entries:
   artemis:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2022-08-25T15:06:21.496285+01:00"
+    created: "2022-09-08T13:37:25.71392+01:00"
     description: A Helm chart for Kubernetes
     digest: 6f31911f475a1177dc4e4fc7a72e2e7a33859f63577bb4d04d6fed0506c1440e
     name: artemis
@@ -14,7 +14,7 @@ entries:
   cockroachdb:
   - apiVersion: v1
     appVersion: 22.1.2
-    created: "2022-08-25T15:06:21.499318+01:00"
+    created: "2022-09-08T13:37:25.717189+01:00"
     description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
     digest: 0cf2ff630f4dca09d91c01a9c528c451a215a965c2ff675008ff5e35acc3d2b4
     home: https://www.cockroachlabs.com
@@ -31,7 +31,7 @@ entries:
   filebeat:
   - apiVersion: v1
     appVersion: 8.1.0
-    created: "2022-08-25T15:06:21.501475+01:00"
+    created: "2022-09-08T13:37:25.719991+01:00"
     description: Official Elastic helm chart for Filebeat
     digest: d8ca38f1ec0d8d19900122618547bc7ef370276f50f32f4c2b76376397f0ebb7
     home: https://github.com/elastic/helm-charts
@@ -48,7 +48,17 @@ entries:
   freight-backend:
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2022-08-25T15:06:21.506118+01:00"
+    created: "2022-09-08T13:37:25.729999+01:00"
+    description: Freight Backend.
+    digest: 680fa159855378e7d0bdfea33c14c9b0a2915036cbfacf15e73097c184d7b0db
+    name: freight-backend
+    type: application
+    urls:
+    - https://world-wide-logistics.github.io/wwl-app-catalog/freight-backend-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
+    appVersion: 0.4.0
+    created: "2022-09-08T13:37:25.728886+01:00"
     description: Freight Backend.
     digest: 1bf8aa01a4aade201f0ee8d36e357dd3b8ec9381e6c32e2fe5871421d814fa55
     name: freight-backend
@@ -58,7 +68,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2022-08-25T15:06:21.505279+01:00"
+    created: "2022-09-08T13:37:25.727363+01:00"
     description: Freight Backend.
     digest: 2cfc62392f53218bcca2c4c4ba286482672d41270fa06824ebbf7c91b459a0c0
     name: freight-backend
@@ -68,7 +78,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2022-08-25T15:06:21.504282+01:00"
+    created: "2022-09-08T13:37:25.725229+01:00"
     description: THG Freight Backend.
     digest: 84b8371ee9521d7c14ed965924fe66baa69aaf5a3b27a24ef57adc26b8c3931c
     name: freight-backend
@@ -78,7 +88,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-08-25T15:06:21.50236+01:00"
+    created: "2022-09-08T13:37:25.721463+01:00"
     description: A Helm chart for the Freight Backend Kubernetes objects.
     digest: aa7313ad6288079eddad13239c429ed33d931aeb3b95438390a679a30aebd2fc
     name: freight-backend
@@ -89,7 +99,7 @@ entries:
   freight-ui:
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2022-08-25T15:06:21.507417+01:00"
+    created: "2022-09-08T13:37:25.732102+01:00"
     description: Freight UI.
     digest: 0ae97c162fc70437e6cbc90e0168f1fdc03620216344d4604a8ee60ad52c9e92
     name: freight-ui
@@ -99,7 +109,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-08-25T15:06:21.506753+01:00"
+    created: "2022-09-08T13:37:25.73115+01:00"
     description: A Helm chart for the Freight UI Kubernetes objects.
     digest: d51272528f36e31f87d24ca6a69a9f511e5b830f7fdea931f49548b977caa96a
     name: freight-ui
@@ -110,7 +120,7 @@ entries:
   global-logistics-unit-service:
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2022-08-25T15:06:21.50988+01:00"
+    created: "2022-09-08T13:37:25.735549+01:00"
     description: Global Logistics Unit Service.
     digest: 5665fbc8eda8e30e61f9add31bf5d8a5b745bd33ed1230bc9b7b5470cedb1bab
     name: global-logistics-unit-service
@@ -120,7 +130,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2022-08-25T15:06:21.509115+01:00"
+    created: "2022-09-08T13:37:25.734151+01:00"
     description: A Helm chart for the Global Logistics Unit Service Kubernetes objects.
     digest: d0a3993570327fd7e0effdecca3cdc7f06ef4649d64a5262631ec893c8146b98
     name: global-logistics-unit-service
@@ -130,7 +140,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-08-25T15:06:21.508211+01:00"
+    created: "2022-09-08T13:37:25.733015+01:00"
     description: A Helm chart for the Global Logistics Unit Service Kubernetes objects.
     digest: a0af2fea131c68809ccee7d373b46ca4c280ee7703f2a0a9b5b335d355fbadf4
     name: global-logistics-unit-service
@@ -141,7 +151,7 @@ entries:
   wwl-gateway:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-08-25T15:06:21.510632+01:00"
+    created: "2022-09-08T13:37:25.736434+01:00"
     description: A Helm chart for the WWL Gateway Kubernetes objects.
     digest: ba8b31a488e678b9fe461f3ac03323b7f7eff905c297f6ad10ed314a0b8a8b1c
     name: wwl-gateway
@@ -149,4 +159,4 @@ entries:
     urls:
     - https://world-wide-logistics.github.io/wwl-app-catalog/wwl-gateway-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-25T15:06:21.494025+01:00"
+generated: "2022-09-08T13:37:25.710619+01:00"
