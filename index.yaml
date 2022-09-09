@@ -3,7 +3,7 @@ entries:
   artemis:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2022-09-08T14:13:07.746885+01:00"
+    created: "2022-09-09T13:54:07.382985+01:00"
     description: A Helm chart for Kubernetes
     digest: 6f31911f475a1177dc4e4fc7a72e2e7a33859f63577bb4d04d6fed0506c1440e
     name: artemis
@@ -14,7 +14,7 @@ entries:
   cockroachdb:
   - apiVersion: v1
     appVersion: 22.1.2
-    created: "2022-09-08T14:13:07.749699+01:00"
+    created: "2022-09-09T13:54:07.385727+01:00"
     description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
     digest: 0cf2ff630f4dca09d91c01a9c528c451a215a965c2ff675008ff5e35acc3d2b4
     home: https://www.cockroachlabs.com
@@ -31,7 +31,7 @@ entries:
   demand-forecast-backend:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-09-08T14:13:07.750349+01:00"
+    created: "2022-09-09T13:54:07.386576+01:00"
     description: A Helm chart for Kubernetes
     digest: 8d7d0a9e259d77e6cb58c7725a9046409e737951d116e8ddbad77bad4c18bc4f
     name: demand-forecast-backend
@@ -42,7 +42,7 @@ entries:
   demand-forecast-ui:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-09-08T14:13:07.750852+01:00"
+    created: "2022-09-09T13:54:07.387301+01:00"
     description: Demand Forecast UI
     digest: 5c6a47e7c87765cb506ad255fb9ada24bb2da3ce53449869ab0fbc59039da1a5
     name: demand-forecast-ui
@@ -53,7 +53,7 @@ entries:
   filebeat:
   - apiVersion: v1
     appVersion: 8.1.0
-    created: "2022-09-08T14:13:07.75226+01:00"
+    created: "2022-09-09T13:54:07.389239+01:00"
     description: Official Elastic helm chart for Filebeat
     digest: d8ca38f1ec0d8d19900122618547bc7ef370276f50f32f4c2b76376397f0ebb7
     home: https://github.com/elastic/helm-charts
@@ -70,7 +70,17 @@ entries:
   freight-backend:
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2022-09-08T14:13:07.755085+01:00"
+    created: "2022-09-09T13:54:07.395722+01:00"
+    description: Freight Backend.
+    digest: f84a3e94339792182bba37602682e84d10b9bd8d30941b2bbabaa7f7a4701715
+    name: freight-backend
+    type: application
+    urls:
+    - https://world-wide-logistics.github.io/wwl-app-catalog/freight-backend-0.7.0.tgz
+    version: 0.7.0
+  - apiVersion: v2
+    appVersion: 0.4.0
+    created: "2022-09-09T13:54:07.39475+01:00"
     description: Freight Backend.
     digest: 680fa159855378e7d0bdfea33c14c9b0a2915036cbfacf15e73097c184d7b0db
     name: freight-backend
@@ -80,7 +90,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2022-09-08T14:13:07.754475+01:00"
+    created: "2022-09-09T13:54:07.393733+01:00"
     description: Freight Backend.
     digest: 1bf8aa01a4aade201f0ee8d36e357dd3b8ec9381e6c32e2fe5871421d814fa55
     name: freight-backend
@@ -90,7 +100,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2022-09-08T14:13:07.753978+01:00"
+    created: "2022-09-09T13:54:07.391969+01:00"
     description: Freight Backend.
     digest: 2cfc62392f53218bcca2c4c4ba286482672d41270fa06824ebbf7c91b459a0c0
     name: freight-backend
@@ -100,7 +110,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2022-09-08T14:13:07.753412+01:00"
+    created: "2022-09-09T13:54:07.390944+01:00"
     description: THG Freight Backend.
     digest: 84b8371ee9521d7c14ed965924fe66baa69aaf5a3b27a24ef57adc26b8c3931c
     name: freight-backend
@@ -110,7 +120,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-09-08T14:13:07.752874+01:00"
+    created: "2022-09-09T13:54:07.390057+01:00"
     description: A Helm chart for the Freight Backend Kubernetes objects.
     digest: aa7313ad6288079eddad13239c429ed33d931aeb3b95438390a679a30aebd2fc
     name: freight-backend
@@ -121,7 +131,7 @@ entries:
   freight-ui:
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2022-09-08T14:13:07.756082+01:00"
+    created: "2022-09-09T13:54:07.397401+01:00"
     description: Freight UI.
     digest: 0ae97c162fc70437e6cbc90e0168f1fdc03620216344d4604a8ee60ad52c9e92
     name: freight-ui
@@ -131,7 +141,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-09-08T14:13:07.755601+01:00"
+    created: "2022-09-09T13:54:07.396444+01:00"
     description: A Helm chart for the Freight UI Kubernetes objects.
     digest: d51272528f36e31f87d24ca6a69a9f511e5b830f7fdea931f49548b977caa96a
     name: freight-ui
@@ -142,7 +152,7 @@ entries:
   global-logistics-unit-service:
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2022-09-08T14:13:07.757973+01:00"
+    created: "2022-09-09T13:54:07.402412+01:00"
     description: Global Logistics Unit Service.
     digest: 5665fbc8eda8e30e61f9add31bf5d8a5b745bd33ed1230bc9b7b5470cedb1bab
     name: global-logistics-unit-service
@@ -152,7 +162,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2022-09-08T14:13:07.75741+01:00"
+    created: "2022-09-09T13:54:07.400551+01:00"
     description: A Helm chart for the Global Logistics Unit Service Kubernetes objects.
     digest: d0a3993570327fd7e0effdecca3cdc7f06ef4649d64a5262631ec893c8146b98
     name: global-logistics-unit-service
@@ -162,7 +172,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-09-08T14:13:07.756712+01:00"
+    created: "2022-09-09T13:54:07.398844+01:00"
     description: A Helm chart for the Global Logistics Unit Service Kubernetes objects.
     digest: a0af2fea131c68809ccee7d373b46ca4c280ee7703f2a0a9b5b335d355fbadf4
     name: global-logistics-unit-service
@@ -173,7 +183,7 @@ entries:
   wwl-gateway:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-09-08T14:13:07.758517+01:00"
+    created: "2022-09-09T13:54:07.403509+01:00"
     description: A Helm chart for the WWL Gateway Kubernetes objects.
     digest: ba8b31a488e678b9fe461f3ac03323b7f7eff905c297f6ad10ed314a0b8a8b1c
     name: wwl-gateway
@@ -181,4 +191,4 @@ entries:
     urls:
     - https://world-wide-logistics.github.io/wwl-app-catalog/wwl-gateway-0.1.0.tgz
     version: 0.1.0
-generated: "2022-09-08T14:13:07.743586+01:00"
+generated: "2022-09-09T13:54:07.380754+01:00"
