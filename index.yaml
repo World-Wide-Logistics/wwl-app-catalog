@@ -3,7 +3,7 @@ entries:
   alert-manager-config:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-08-22T09:54:18.643789+01:00"
+    created: "2023-08-22T11:29:00.377207+01:00"
     description: Configuration for Alert Manager using the AlertmanagerConfig crd.
     digest: 081647d8b43681f8ee01d3a464f42196398e62dc3cb9dd955e69747d178db0a6
     name: alert-manager-config
@@ -13,7 +13,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-08-22T09:54:18.643425+01:00"
+    created: "2023-08-22T11:29:00.376817+01:00"
     description: A Helm chart for Kubernetes
     digest: 36680d307fa41d6ac0c83d6ef206afff0df0e111f0293783b40705118a7a9bfc
     name: alert-manager-config
@@ -24,7 +24,17 @@ entries:
   artemis:
   - apiVersion: v2
     appVersion: 2.22.0
-    created: "2023-08-22T09:54:18.649444+01:00"
+    created: "2023-08-22T11:29:00.387105+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 96e8343406adb412a61b87007b18e5c6888a3108e98a5d767cb4215ce755e827
+    name: artemis
+    type: application
+    urls:
+    - https://world-wide-logistics.github.io/wwl-app-catalog/artemis-1.0.20.tgz
+    version: 1.0.20
+  - apiVersion: v2
+    appVersion: 2.22.0
+    created: "2023-08-22T11:29:00.384364+01:00"
     description: A Helm chart for Kubernetes
     digest: d15afeddd343ba17f385295045d4702812f0e8d9867df546b5d29c0c9254c313
     name: artemis
@@ -34,7 +44,7 @@ entries:
     version: 1.0.19
   - apiVersion: v2
     appVersion: 2.22.0
-    created: "2023-08-22T09:54:18.648775+01:00"
+    created: "2023-08-22T11:29:00.383319+01:00"
     description: A Helm chart for Kubernetes
     digest: 19121c2182a4d972473f625bd028274f64181223f23678fb60138025a304e006
     name: artemis
@@ -44,7 +54,7 @@ entries:
     version: 1.0.18
   - apiVersion: v2
     appVersion: 2.22.0
-    created: "2023-08-22T09:54:18.648088+01:00"
+    created: "2023-08-22T11:29:00.382552+01:00"
     description: A Helm chart for Kubernetes
     digest: 8adce9007c938a10a69abaed4e30c11bc7c609f062abdd042a5457df806080d1
     name: artemis
@@ -54,7 +64,7 @@ entries:
     version: 1.0.17
   - apiVersion: v2
     appVersion: 2.22.0
-    created: "2023-08-22T09:54:18.647402+01:00"
+    created: "2023-08-22T11:29:00.381458+01:00"
     description: A Helm chart for Kubernetes
     digest: 6a78127e1c00430bcba9e392b34351119df705264604e623e9c46c533a576bd7
     name: artemis
@@ -64,7 +74,7 @@ entries:
     version: 1.0.16
   - apiVersion: v2
     appVersion: 2.21.0
-    created: "2023-08-22T09:54:18.646512+01:00"
+    created: "2023-08-22T11:29:00.380269+01:00"
     description: A Helm chart for Kubernetes
     digest: 0334b1e824e7788898b2950ca05573ef2013a9c740a4bc8d7ab3701e9818ca68
     name: artemis
@@ -74,7 +84,7 @@ entries:
     version: 1.0.15
   - apiVersion: v2
     appVersion: 2.21.0
-    created: "2023-08-22T09:54:18.646213+01:00"
+    created: "2023-08-22T11:29:00.379961+01:00"
     description: A Helm chart for Kubernetes
     digest: 60aa9a5420ff05f562b35119320e7df6dc91be406331da22b0918ee82ffd8646
     name: artemis
@@ -84,7 +94,7 @@ entries:
     version: 1.0.14
   - apiVersion: v2
     appVersion: 2.21.0
-    created: "2023-08-22T09:54:18.645916+01:00"
+    created: "2023-08-22T11:29:00.379654+01:00"
     description: A Helm chart for Kubernetes
     digest: 12c8d95f3f6a1db128bcf3a5e9ddbabfdfbf33b59710e0ee5ade12e16d82048d
     name: artemis
@@ -94,7 +104,7 @@ entries:
     version: 1.0.13
   - apiVersion: v2
     appVersion: 2.21.0
-    created: "2023-08-22T09:54:18.645615+01:00"
+    created: "2023-08-22T11:29:00.379332+01:00"
     description: A Helm chart for Kubernetes
     digest: 08ecbbff46b0b445efe4bab0647932adaaf298ed956c2c533c0799a8ed23f445
     name: artemis
@@ -104,7 +114,7 @@ entries:
     version: 1.0.12
   - apiVersion: v2
     appVersion: 2.21.0
-    created: "2023-08-22T09:54:18.645316+01:00"
+    created: "2023-08-22T11:29:00.378881+01:00"
     description: A Helm chart for Kubernetes
     digest: b51caa150d4cc06316217770f7be531e6ec57e561c4a2849b7530a0ed7996c8d
     name: artemis
@@ -114,7 +124,7 @@ entries:
     version: 1.0.11
   - apiVersion: v2
     appVersion: 2.21.0
-    created: "2023-08-22T09:54:18.645038+01:00"
+    created: "2023-08-22T11:29:00.378461+01:00"
     description: A Helm chart for Kubernetes
     digest: 684534f38c8436cd863d29457b07c823f82f45498fa16b1e9208e33a18925a3f
     name: artemis
@@ -124,7 +134,7 @@ entries:
     version: 1.0.10
   - apiVersion: v2
     appVersion: 2.21.0
-    created: "2023-08-22T09:54:18.653678+01:00"
+    created: "2023-08-22T11:29:00.389397+01:00"
     description: A Helm chart for Kubernetes
     digest: 76d61ad8aad089e31ea849024995cc5914901f4b3922a1a56e31f9d04d390c58
     name: artemis
@@ -134,7 +144,7 @@ entries:
     version: 1.0.9
   - apiVersion: v2
     appVersion: 2.21.0
-    created: "2023-08-22T09:54:18.653397+01:00"
+    created: "2023-08-22T11:29:00.389077+01:00"
     description: A Helm chart for Kubernetes
     digest: a00ff73d8ff3cc16d52395c954c68d3723ddad406bcdfb45b396c55eb30ec743
     name: artemis
@@ -144,7 +154,7 @@ entries:
     version: 1.0.8
   - apiVersion: v2
     appVersion: 2.21.0
-    created: "2023-08-22T09:54:18.653088+01:00"
+    created: "2023-08-22T11:29:00.388757+01:00"
     description: A Helm chart for Kubernetes
     digest: 1309ca22bb11697343d58a10a9fa7d35428bd918fbf6efb1e0984e4908fdc31c
     name: artemis
@@ -154,7 +164,7 @@ entries:
     version: 1.0.7
   - apiVersion: v2
     appVersion: 2.21.0
-    created: "2023-08-22T09:54:18.652766+01:00"
+    created: "2023-08-22T11:29:00.388421+01:00"
     description: A Helm chart for Kubernetes
     digest: eead26b62bd44700e6efbf352070222430fde1a10a35302a8af1bf51151f4d87
     name: artemis
@@ -164,7 +174,7 @@ entries:
     version: 1.0.6
   - apiVersion: v2
     appVersion: 2.21.0
-    created: "2023-08-22T09:54:18.652464+01:00"
+    created: "2023-08-22T11:29:00.388085+01:00"
     description: A Helm chart for Kubernetes
     digest: 4a45a0f840578eb332cf0002f19e361845a6559aa32d90dec3ca9d68d004c6ba
     name: artemis
@@ -174,7 +184,7 @@ entries:
     version: 1.0.5
   - apiVersion: v2
     appVersion: 2.21.0
-    created: "2023-08-22T09:54:18.652161+01:00"
+    created: "2023-08-22T11:29:00.387764+01:00"
     description: A Helm chart for Kubernetes
     digest: 0ee89dd12ff135db7a57173a8afa962a701b7cbec649dbe656000f8299a7ffb8
     name: artemis
@@ -184,7 +194,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: 2.21.0
-    created: "2023-08-22T09:54:18.651841+01:00"
+    created: "2023-08-22T11:29:00.387436+01:00"
     description: A Helm chart for Kubernetes
     digest: 4c000ac00a592131fea51eee1f6b24abf0dd7490e761365470bd8711a65cfa29
     name: artemis
@@ -194,7 +204,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 2.21.0
-    created: "2023-08-22T09:54:18.64977+01:00"
+    created: "2023-08-22T11:29:00.384669+01:00"
     description: A Helm chart for Kubernetes
     digest: 5fe52d34afc6d1f383aa4c93682ad97815853aa06ebba0f2342a25a5b069e7eb
     name: artemis
@@ -204,7 +214,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2023-08-22T09:54:18.64475+01:00"
+    created: "2023-08-22T11:29:00.378172+01:00"
     description: A Helm chart for Kubernetes
     digest: 6f31911f475a1177dc4e4fc7a72e2e7a33859f63577bb4d04d6fed0506c1440e
     name: artemis
@@ -215,7 +225,7 @@ entries:
   cockroachdb:
   - apiVersion: v1
     appVersion: 22.1.2
-    created: "2023-08-22T09:54:18.654896+01:00"
+    created: "2023-08-22T11:29:00.390654+01:00"
     description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
     digest: 0cf2ff630f4dca09d91c01a9c528c451a215a965c2ff675008ff5e35acc3d2b4
     home: https://www.cockroachlabs.com
@@ -232,7 +242,7 @@ entries:
   demand-forecast-backend:
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2023-08-22T09:54:18.661024+01:00"
+    created: "2023-08-22T11:29:00.397263+01:00"
     description: A Helm chart for Kubernetes
     digest: 3c3c244a5d5273912b6ff8635d22276efb65418dd416b6aa123d2ee8087df63f
     name: demand-forecast-backend
@@ -242,7 +252,7 @@ entries:
     version: 1.5.0
   - apiVersion: v2
     appVersion: 1.4.0
-    created: "2023-08-22T09:54:18.66066+01:00"
+    created: "2023-08-22T11:29:00.396868+01:00"
     description: A Helm chart for Kubernetes
     digest: e2369aefb1f9a6ccf0ed9949565bc2acadbba8333d928725bea2ec34d7e07859
     name: demand-forecast-backend
@@ -252,7 +262,7 @@ entries:
     version: 1.4.0
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2023-08-22T09:54:18.660282+01:00"
+    created: "2023-08-22T11:29:00.396466+01:00"
     description: A Helm chart for Kubernetes
     digest: 35525730b318ba456b6d3d1666d6c2b46b7f004d020f9b86d49f9a0c9605b8c0
     name: demand-forecast-backend
@@ -262,7 +272,7 @@ entries:
     version: 1.3.0
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2023-08-22T09:54:18.65979+01:00"
+    created: "2023-08-22T11:29:00.395946+01:00"
     description: A Helm chart for Kubernetes
     digest: 0ceefdb3838849c80a9f4518afbc5cd5c9cf1361afb2e00e3e7433ffe25743be
     name: demand-forecast-backend
@@ -272,7 +282,7 @@ entries:
     version: 1.2.0
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2023-08-22T09:54:18.659259+01:00"
+    created: "2023-08-22T11:29:00.395481+01:00"
     description: A Helm chart for Kubernetes
     digest: 70a8cf672407aa69789a778318415b112a127cbe0cc798c2e5951cc712061ec4
     name: demand-forecast-backend
@@ -282,7 +292,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-08-22T09:54:18.658776+01:00"
+    created: "2023-08-22T11:29:00.394986+01:00"
     description: A Helm chart for Kubernetes
     digest: 5302f9336f27d46c350a143e0c0a6673234e8f9459061477393c3310216e8152
     name: demand-forecast-backend
@@ -292,7 +302,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.9.0
-    created: "2023-08-22T09:54:18.657958+01:00"
+    created: "2023-08-22T11:29:00.393791+01:00"
     description: A Helm chart for Kubernetes
     digest: 6ad69ea175dc09f232f5e2c685294d972cd52aae54e1712bcde806adea29ce93
     name: demand-forecast-backend
@@ -302,7 +312,7 @@ entries:
     version: 0.9.0
   - apiVersion: v2
     appVersion: 0.7.0
-    created: "2023-08-22T09:54:18.657584+01:00"
+    created: "2023-08-22T11:29:00.393429+01:00"
     description: A Helm chart for Kubernetes
     digest: 32cc116a226bb77ef51d8100048a631057b686b279544bee8d20fb1a1ea86cc4
     name: demand-forecast-backend
@@ -312,7 +322,7 @@ entries:
     version: 0.8.0
   - apiVersion: v2
     appVersion: 0.7.0
-    created: "2023-08-22T09:54:18.65721+01:00"
+    created: "2023-08-22T11:29:00.393059+01:00"
     description: A Helm chart for Kubernetes
     digest: 415678bd67b9c4d4879f07d524e1d14a943a9092e7f464edd47d84a9b717a379
     name: demand-forecast-backend
@@ -322,7 +332,7 @@ entries:
     version: 0.7.0
   - apiVersion: v2
     appVersion: 0.6.0
-    created: "2023-08-22T09:54:18.656838+01:00"
+    created: "2023-08-22T11:29:00.392695+01:00"
     description: A Helm chart for Kubernetes
     digest: 65122c65d3c103015db550f71216fc6642b2b72e96f4e2db6479a8aedc87ff99
     name: demand-forecast-backend
@@ -332,7 +342,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 0.5.0
-    created: "2023-08-22T09:54:18.656528+01:00"
+    created: "2023-08-22T11:29:00.392395+01:00"
     description: A Helm chart for Kubernetes
     digest: e095be127a8b169647350f6b18b89206e967953ed1bed3983245417b164d4f85
     name: demand-forecast-backend
@@ -342,7 +352,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2023-08-22T09:54:18.656223+01:00"
+    created: "2023-08-22T11:29:00.392065+01:00"
     description: A Helm chart for Kubernetes
     digest: b9f4d6fd22efd0155d7e82ce95b327146a3fcfcb7195faa097ff68c188e693e4
     name: demand-forecast-backend
@@ -352,7 +362,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2023-08-22T09:54:18.655898+01:00"
+    created: "2023-08-22T11:29:00.39175+01:00"
     description: A Helm chart for Kubernetes
     digest: 67685c07d1a82c6f7827457c294827b14d9cc1133a97a7b133e142750a1fb986
     name: demand-forecast-backend
@@ -362,7 +372,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2023-08-22T09:54:18.655545+01:00"
+    created: "2023-08-22T11:29:00.391299+01:00"
     description: A Helm chart for Kubernetes
     digest: c2ac515b9b7c6e913757c48dceda2fd6ffda7d0d1c5995e92ee9bba15dd7da1a
     name: demand-forecast-backend
@@ -372,7 +382,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-08-22T09:54:18.655216+01:00"
+    created: "2023-08-22T11:29:00.39098+01:00"
     description: A Helm chart for Kubernetes
     digest: 8d7d0a9e259d77e6cb58c7725a9046409e737951d116e8ddbad77bad4c18bc4f
     name: demand-forecast-backend
@@ -383,7 +393,7 @@ entries:
   demand-forecast-ui:
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2023-08-22T09:54:18.661563+01:00"
+    created: "2023-08-22T11:29:00.397888+01:00"
     description: Demand Forecast UI
     digest: e00b434d0147986bcbf8184a8b6c28dd681fa3dd767d0e2422d9b134b343b73c
     name: demand-forecast-ui
@@ -393,7 +403,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-08-22T09:54:18.661302+01:00"
+    created: "2023-08-22T11:29:00.397572+01:00"
     description: Demand Forecast UI
     digest: 5c6a47e7c87765cb506ad255fb9ada24bb2da3ce53449869ab0fbc59039da1a5
     name: demand-forecast-ui
@@ -404,7 +414,7 @@ entries:
   filebeat:
   - apiVersion: v1
     appVersion: 8.1.0
-    created: "2023-08-22T09:54:18.662399+01:00"
+    created: "2023-08-22T11:29:00.398842+01:00"
     description: Official Elastic helm chart for Filebeat
     digest: d8ca38f1ec0d8d19900122618547bc7ef370276f50f32f4c2b76376397f0ebb7
     home: https://github.com/elastic/helm-charts
@@ -421,7 +431,7 @@ entries:
   freight-backend:
   - apiVersion: v2
     appVersion: 0.5.1
-    created: "2023-08-22T09:54:18.664962+01:00"
+    created: "2023-08-22T11:29:00.401576+01:00"
     description: Freight Backend.
     digest: 87dfa3768e80b9965d65343327537a591c907a9fbe8edfd8961421d69957ef85
     name: freight-backend
@@ -431,7 +441,7 @@ entries:
     version: 0.15.0
   - apiVersion: v2
     appVersion: 0.5.1
-    created: "2023-08-22T09:54:18.664606+01:00"
+    created: "2023-08-22T11:29:00.401167+01:00"
     description: Freight Backend.
     digest: 7c2036c9131e8cd7a6b4d1ba7abba459a977de3e181ff0569a50d8fa33b3be86
     name: freight-backend
@@ -441,7 +451,7 @@ entries:
     version: 0.14.0
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2023-08-22T09:54:18.664231+01:00"
+    created: "2023-08-22T11:29:00.40074+01:00"
     description: Freight Backend.
     digest: c0b230dfbf819e8638551e8a1217176a105c8662e10e4ee2ffe0bcd7476efe9a
     name: freight-backend
@@ -451,7 +461,7 @@ entries:
     version: 0.13.0
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2023-08-22T09:54:18.663862+01:00"
+    created: "2023-08-22T11:29:00.400352+01:00"
     description: Freight Backend.
     digest: eca185d1f35d2bb697ac1f34ce4590827b0dfc39e19e26f1c145e3d5dfd2f4f5
     name: freight-backend
@@ -461,7 +471,7 @@ entries:
     version: 0.12.0
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2023-08-22T09:54:18.663489+01:00"
+    created: "2023-08-22T11:29:00.399961+01:00"
     description: Freight Backend.
     digest: 39bbeff86ea855ffb2445a3f069c912f5a15fa2cc42121687a7b8207f43f10bc
     name: freight-backend
@@ -471,7 +481,7 @@ entries:
     version: 0.11.0
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2023-08-22T09:54:18.663112+01:00"
+    created: "2023-08-22T11:29:00.39958+01:00"
     description: Freight Backend.
     digest: 8a220b748a0b5c9db5a401b3ecec22b40c6188849467d4ad789a574936fa0d24
     name: freight-backend
@@ -481,7 +491,7 @@ entries:
     version: 0.10.0
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2023-08-22T09:54:18.668407+01:00"
+    created: "2023-08-22T11:29:00.404751+01:00"
     description: Freight Backend.
     digest: 5505666d6927bb8d72e4e4d253191f63e393c1c42a76eef15a4c4903ab7200d6
     name: freight-backend
@@ -491,7 +501,7 @@ entries:
     version: 0.9.0
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2023-08-22T09:54:18.668057+01:00"
+    created: "2023-08-22T11:29:00.404408+01:00"
     description: Freight Backend.
     digest: d8754742fdcd21764f9e69b239559e3b5c4c5a8e5ddd4896e4507af550c67692
     name: freight-backend
@@ -501,7 +511,7 @@ entries:
     version: 0.8.0
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2023-08-22T09:54:18.66768+01:00"
+    created: "2023-08-22T11:29:00.404061+01:00"
     description: Freight Backend.
     digest: f84a3e94339792182bba37602682e84d10b9bd8d30941b2bbabaa7f7a4701715
     name: freight-backend
@@ -511,7 +521,7 @@ entries:
     version: 0.7.0
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2023-08-22T09:54:18.667309+01:00"
+    created: "2023-08-22T11:29:00.403693+01:00"
     description: Freight Backend.
     digest: 81a947154d13c64597f43ba04e11e7208b58fdd404ccec897342dfbb726f99f1
     name: freight-backend
@@ -521,7 +531,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2023-08-22T09:54:18.666934+01:00"
+    created: "2023-08-22T11:29:00.403336+01:00"
     description: Freight Backend.
     digest: 680fa159855378e7d0bdfea33c14c9b0a2915036cbfacf15e73097c184d7b0db
     name: freight-backend
@@ -531,7 +541,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2023-08-22T09:54:18.66655+01:00"
+    created: "2023-08-22T11:29:00.402949+01:00"
     description: Freight Backend.
     digest: 1bf8aa01a4aade201f0ee8d36e357dd3b8ec9381e6c32e2fe5871421d814fa55
     name: freight-backend
@@ -541,7 +551,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2023-08-22T09:54:18.665618+01:00"
+    created: "2023-08-22T11:29:00.402548+01:00"
     description: Freight Backend.
     digest: 2cfc62392f53218bcca2c4c4ba286482672d41270fa06824ebbf7c91b459a0c0
     name: freight-backend
@@ -551,7 +561,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2023-08-22T09:54:18.665278+01:00"
+    created: "2023-08-22T11:29:00.401884+01:00"
     description: THG Freight Backend.
     digest: 84b8371ee9521d7c14ed965924fe66baa69aaf5a3b27a24ef57adc26b8c3931c
     name: freight-backend
@@ -561,7 +571,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-08-22T09:54:18.662759+01:00"
+    created: "2023-08-22T11:29:00.399218+01:00"
     description: A Helm chart for the Freight Backend Kubernetes objects.
     digest: aa7313ad6288079eddad13239c429ed33d931aeb3b95438390a679a30aebd2fc
     name: freight-backend
@@ -572,7 +582,7 @@ entries:
   freight-forwarder-service:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-08-22T09:54:18.670099+01:00"
+    created: "2023-08-22T11:29:00.406683+01:00"
     description: Helm chart for the freight-forwarder-service Kubernetes resources.
     digest: 82641f3ba829d7caf78d737e914851093da228bc06c1591544774266e76ef3f7
     name: freight-forwarder-service
@@ -582,7 +592,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-08-22T09:54:18.669762+01:00"
+    created: "2023-08-22T11:29:00.406332+01:00"
     description: Helm chart for the freight-forwarder-service Kubernetes resources.
     digest: 89ca720589875405a9386b4b3e402cbcb6ea1df45f80abd59ce0dfde8910ba03
     name: freight-forwarder-service
@@ -592,7 +602,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-08-22T09:54:18.669423+01:00"
+    created: "2023-08-22T11:29:00.405986+01:00"
     description: Helm chart for the freight-forwarder-service Kubernetes resources.
     digest: 01e5b4d21c52ed9b39e31ccfe5367c7252a4dcf4beae13d8634a635bd6917da0
     name: freight-forwarder-service
@@ -602,7 +612,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-08-22T09:54:18.669089+01:00"
+    created: "2023-08-22T11:29:00.405633+01:00"
     description: Helm chart for the freight-forwarder-service Kubernetes resources.
     digest: b187363af34740590b0d09fad622f42842db50f0f2a56322466101fd0545eb7e
     name: freight-forwarder-service
@@ -612,7 +622,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-08-22T09:54:18.668756+01:00"
+    created: "2023-08-22T11:29:00.405294+01:00"
     description: Helm chart for the freight-forwarder-service Kubernetes resources.
     digest: 67fe2b85b7546d2330935668a3437bed1a1986668d8ae3b15ce2106111399a55
     name: freight-forwarder-service
@@ -623,7 +633,7 @@ entries:
   freight-ui:
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2023-08-22T09:54:18.670941+01:00"
+    created: "2023-08-22T11:29:00.407636+01:00"
     description: Freight UI.
     digest: 944d7437278e5a7b370c9a1b3c1b3e5b93dafd60b2060d286d84ad04681c17ad
     name: freight-ui
@@ -633,7 +643,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2023-08-22T09:54:18.670662+01:00"
+    created: "2023-08-22T11:29:00.407334+01:00"
     description: Freight UI.
     digest: 0ae97c162fc70437e6cbc90e0168f1fdc03620216344d4604a8ee60ad52c9e92
     name: freight-ui
@@ -643,7 +653,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-08-22T09:54:18.670383+01:00"
+    created: "2023-08-22T11:29:00.407024+01:00"
     description: A Helm chart for the Freight UI Kubernetes objects.
     digest: d51272528f36e31f87d24ca6a69a9f511e5b830f7fdea931f49548b977caa96a
     name: freight-ui
@@ -654,7 +664,7 @@ entries:
   global-logistics-unit-service:
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2023-08-22T09:54:18.673716+01:00"
+    created: "2023-08-22T11:29:00.411041+01:00"
     description: Global Logistics Unit Service.
     digest: 0a8ee9bb929956f5ec5b1198ef869d44ce9e4c4b5ec70fd061c0e4eb1d1bf3ea
     name: global-logistics-unit-service
@@ -664,7 +674,7 @@ entries:
     version: 0.7.0
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2023-08-22T09:54:18.673296+01:00"
+    created: "2023-08-22T11:29:00.409742+01:00"
     description: Global Logistics Unit Service.
     digest: 63c0e40c66062bb78f730921dd92ea1c4d2b0a23b49aab684102ef92b4710bac
     name: global-logistics-unit-service
@@ -674,7 +684,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2023-08-22T09:54:18.672594+01:00"
+    created: "2023-08-22T11:29:00.40937+01:00"
     description: Global Logistics Unit Service.
     digest: 4264c873d94d51533042fc31b8faf2beef67325a14cd09d8301d26ac3172abc8
     name: global-logistics-unit-service
@@ -684,7 +694,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2023-08-22T09:54:18.672253+01:00"
+    created: "2023-08-22T11:29:00.409018+01:00"
     description: Global Logistics Unit Service.
     digest: 79d7763f4e74827a222423a5ba0c315e8810e06cd6927aa6a5493dee6e07b5cd
     name: global-logistics-unit-service
@@ -694,7 +704,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2023-08-22T09:54:18.671917+01:00"
+    created: "2023-08-22T11:29:00.408678+01:00"
     description: Global Logistics Unit Service.
     digest: 5665fbc8eda8e30e61f9add31bf5d8a5b745bd33ed1230bc9b7b5470cedb1bab
     name: global-logistics-unit-service
@@ -704,7 +714,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2023-08-22T09:54:18.671592+01:00"
+    created: "2023-08-22T11:29:00.408307+01:00"
     description: A Helm chart for the Global Logistics Unit Service Kubernetes objects.
     digest: d0a3993570327fd7e0effdecca3cdc7f06ef4649d64a5262631ec893c8146b98
     name: global-logistics-unit-service
@@ -714,7 +724,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-08-22T09:54:18.671269+01:00"
+    created: "2023-08-22T11:29:00.40797+01:00"
     description: A Helm chart for the Global Logistics Unit Service Kubernetes objects.
     digest: a0af2fea131c68809ccee7d373b46ca4c280ee7703f2a0a9b5b335d355fbadf4
     name: global-logistics-unit-service
@@ -725,7 +735,7 @@ entries:
   packaging-service:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-08-22T09:54:18.676132+01:00"
+    created: "2023-08-22T11:29:00.41385+01:00"
     description: Helm chart for the packaging-service Kubernetes resources.
     digest: d6a406393ae8b72751b81b99fa2c8d8481bc4e82f3d3ed57089a407db629d35c
     name: packaging-service
@@ -735,7 +745,7 @@ entries:
     version: 0.7.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-08-22T09:54:18.675799+01:00"
+    created: "2023-08-22T11:29:00.413484+01:00"
     description: Helm chart for the packaging-service Kubernetes resources.
     digest: be5438b8c5d8929f928836d6d70c320f14a4fac2d309ffad62ea8ceadcdbf9d5
     name: packaging-service
@@ -745,7 +755,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-08-22T09:54:18.675468+01:00"
+    created: "2023-08-22T11:29:00.413114+01:00"
     description: Helm chart for the packaging-service Kubernetes resources.
     digest: 80d293fc6aa08f97381e5eedf85617ace9eeae5283195911f6acb75b0bddd9d1
     name: packaging-service
@@ -755,7 +765,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-08-22T09:54:18.675147+01:00"
+    created: "2023-08-22T11:29:00.41276+01:00"
     description: Helm chart for the packaging-service Kubernetes resources.
     digest: 604de25ea0d9272b4d08a605f5f9ced5df7d61aec440e4f4cc59f15fdcbcd1f4
     name: packaging-service
@@ -765,7 +775,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-08-22T09:54:18.674782+01:00"
+    created: "2023-08-22T11:29:00.41239+01:00"
     description: Helm chart for the packaging-service Kubernetes resources.
     digest: 217205bb48ea5ecb14dd6ca430a122610497550c5683c5f41242fb39e128fb9b
     name: packaging-service
@@ -775,7 +785,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-08-22T09:54:18.674421+01:00"
+    created: "2023-08-22T11:29:00.411996+01:00"
     description: Helm chart for the packaging-service Kubernetes resources.
     digest: 5b6d68c6190e001c96a2abc873eca30c5681ab9c02cdbc9698dee251777ffaf4
     name: packaging-service
@@ -785,7 +795,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-08-22T09:54:18.674041+01:00"
+    created: "2023-08-22T11:29:00.411612+01:00"
     description: Helm chart for the packaging-service Kubernetes resources.
     digest: 0aeb2ebf320d6d7fbc154f4ee41a36c73cf8bcec646de04a3849b6f580667ca9
     name: packaging-service
@@ -796,7 +806,7 @@ entries:
   wwl-gateway:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-08-22T09:54:18.676447+01:00"
+    created: "2023-08-22T11:29:00.414176+01:00"
     description: A Helm chart for the WWL Gateway Kubernetes objects.
     digest: ba8b31a488e678b9fe461f3ac03323b7f7eff905c297f6ad10ed314a0b8a8b1c
     name: wwl-gateway
@@ -804,4 +814,4 @@ entries:
     urls:
     - https://world-wide-logistics.github.io/wwl-app-catalog/wwl-gateway-0.1.0.tgz
     version: 0.1.0
-generated: "2023-08-22T09:54:18.642523+01:00"
+generated: "2023-08-22T11:29:00.375847+01:00"
